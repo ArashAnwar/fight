@@ -1,0 +1,41 @@
+<!DOCTYPE html><html><head>
+  
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="https://unpkg.com/matter-js@0.14.2/build/matter.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAYE53p7_AufGRFhCe7cefgsU6VGE6yEqE",
+    authDomain: "street-fighter-7b31d.firebaseapp.com",
+    databaseURL: "https://street-fighter-7b31d.firebaseio.com",
+    projectId: "street-fighter-7b31d",
+    storageBucket: "street-fighter-7b31d.appspot.com",
+    messagingSenderId: "405689428071",
+    appId: "1:405689428071:web:878a8352e5b67b01908cc2",
+    measurementId: "G-9TGT7MXET6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      <script src="form.js"></script>
+      <script src="player.js"></script>
+      <script src="game.js"></script>
+  
+
+</body></html>
